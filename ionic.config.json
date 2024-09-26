@@ -1,5 +1,5 @@
 {
-  "name": "relevamiento-visual",
+  "name": "relevamiento.visual",
   "integrations": {
     "capacitor": {}
   },

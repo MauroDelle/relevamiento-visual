@@ -1,0 +1,24 @@
+
+* {
+  font-size: 27px;
+}
+
+h1 {
+  font-size: 29px;
+}
+
+a {
+  text-decoration: none; /* Remove underline */
+}
+
+.img-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+}
+
+ion-img {
+  height: 30px;
+  width: 30px;
+}
