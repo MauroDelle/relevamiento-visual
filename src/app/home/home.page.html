@@ -1,20 +1,36 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Blank
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
+<!-- Logout button  -->
+<ion-fab slot="fixed" vertical="top" horizontal="end">
+  <ion-fab-button (click)="logout()" size="small" color="danger">
+    <ion-icon name="log-out"></ion-icon>
+  </ion-fab-button>
+</ion-fab>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
+<ion-fab slot="fixed" vertical="bottom" horizontal="end">
+  <ion-fab-button routerLink="/graficos" size="small" color="warning">
+    <ion-icon name="ribbon"></ion-icon
+  ></ion-fab-button>
+</ion-fab>
 
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
-  </div>
+<ion-fab slot="fixed" vertical="bottom" horizontal="start">
+  <ion-fab-button routerLink="/home/user-photos" size="small" color="success">
+    <ion-icon name="images-outline"></ion-icon
+  ></ion-fab-button>
+</ion-fab>
+
+<!-- Home -->
+<ion-content>
+  <ion-grid>
+    <ion-row>
+      <ion-col size="12" routerLink="/cosas/lindas">
+        <img src="../../assets/cosas-lindas.jpeg" />
+        <div class="texto-superpuesto"><h1>Cosas Lindas</h1></div>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col size="12" routerLink="/cosas/feas">
+        <img src="../../assets/cosas-feas.jpeg" />
+        <div class="texto-superpuesto2"><h1>Cosas Feas</h1></div>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
 </ion-content>

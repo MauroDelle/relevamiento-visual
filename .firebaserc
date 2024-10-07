@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "relevamiento-visual1-pps": {
+      "hosting": {
+        "app": [
+          "relevamiento-visual1-pps"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "relevamiento-visual1-pps"
+  }
+}
